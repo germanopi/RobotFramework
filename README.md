@@ -19,3 +19,5 @@
 
 RobotFramework Documentation 
 https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
+
+Run: robot -d pathtologs scriptname.robot
