@@ -22,7 +22,7 @@ https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 
 # Run
    * Pycharm or cmd: robot -d PathToResults PathToScript/ScriptName.robot
-   * Multiple suites: robot -d PathToResults PathToScripts
+   * Multiple suites: robot -d PathToResults -N "NameOfSuiteRunned" PathToScripts     // -N is optional
    * Batch File (.bat) : create a txt with:  
             @echo off  
             cd c:\your script location  
