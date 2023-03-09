@@ -20,8 +20,8 @@
 RobotFramework Documentation 
 https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 
-Run: robot -d PathToResults ScriptName.robot
+   * Run: robot -d PathToResults ScriptName.robot
 
 # Possible Errors
-You added your Webdriver to C:\bin but Pycharm saied:  Message: session not created: This version of ChromeDriver only supports Chrome version xxx
+   * You added your Webdriver to C:\bin but Pycharm saied:  Message: session not created: This version of ChromeDriver only supports Chrome version xxx
 Look for C:\ProgramData\chocolatey\bin and change the Webdriver to the new one
