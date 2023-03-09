@@ -16,3 +16,6 @@
 8) Create a new project > Choose the directory and  
      * Select Inherit global site-packages and Make available to all projects > Change location to an exclusive folder     
      * Or Select Previously configured interpreter > System Intepreter 
+
+RobotFramework Documentation 
+https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
