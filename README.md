@@ -20,7 +20,14 @@
 RobotFramework Documentation 
 https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 
-   * Run: robot -d PathToResults ScriptName.robot
+# Run
+   * Pycharm or cmd: robot -d PathToResults PathToScript/ScriptName.robot
+   * Batch File (.bat) : create a txt with:  
+            @echo off  
+            cd c:\your script location  
+            call  robot -d PathToResults PathToScript/ScriptName.robot  
+            save file .bat  
+
 
 # Possible Errors
    * You added your Webdriver to C:\bin but Pycharm saied:  Message: session not created: This version of ChromeDriver only supports Chrome version xxx
