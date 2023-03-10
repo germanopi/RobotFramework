@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230309 22:54:12.688" rpa="false" schemaversion="3">
+<suite id="s1" name="Demo" source="C:\development\robot-scripts\keyword-demonstration\Tests\demo.robot">
+<kw name="Insert Testing Data" library="Common" type="SETUP">
+<kw name="Log" library="BuiltIn">
+<arg>Inserting test data...</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230309 22:54:12.850" level="INFO">Inserting test data...</msg>
+<status status="PASS" starttime="20230309 22:54:12.850" endtime="20230309 22:54:12.850"/>
+</kw>
+<kw name="Custom Keyword 1" library="Common">
+<kw name="Log" library="BuiltIn">
+<arg>Doing keyword 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230309 22:54:12.850" level="INFO">Doing keyword 1</msg>
+<status status="PASS" starttime="20230309 22:54:12.850" endtime="20230309 22:54:12.850"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:12.850" endtime="20230309 22:54:12.850"/>
+</kw>
+<kw name="Custom Keyword 2" library="Common">
+<kw name="Log" library="BuiltIn">
+<arg>Doing keyword 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230309 22:54:12.850" level="INFO">Doing keyword 2</msg>
+<status status="PASS" starttime="20230309 22:54:12.850" endtime="20230309 22:54:12.850"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:12.850" endtime="20230309 22:54:12.851"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:12.849" endtime="20230309 22:54:12.851"/>
+</kw>
+<test id="s1-t1" name="Test case 1" line="11">
+<kw name="Begin Web Test" library="Common" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://google.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230309 22:54:12.852" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<status status="PASS" starttime="20230309 22:54:12.851" endtime="20230309 22:54:15.639"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:12.851" endtime="20230309 22:54:15.639"/>
+</kw>
+<kw name="Do Something" library="Settings&amp;Keywords">
+<kw name="Log" library="BuiltIn">
+<arg>I am doing something....</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230309 22:54:15.639" level="INFO">I am doing something....</msg>
+<status status="PASS" starttime="20230309 22:54:15.639" endtime="20230309 22:54:15.639"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:15.639" endtime="20230309 22:54:15.639"/>
+</kw>
+<kw name="Do Something Else" library="Settings&amp;Keywords">
+<kw name="Log" library="BuiltIn">
+<arg>I am doing something else....</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230309 22:54:15.640" level="INFO">I am doing something else....</msg>
+<status status="PASS" starttime="20230309 22:54:15.640" endtime="20230309 22:54:15.640"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:15.640" endtime="20230309 22:54:15.640"/>
+</kw>
+<kw name="End Web Test" library="Common" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230309 22:54:15.640" endtime="20230309 22:54:17.701"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:15.640" endtime="20230309 22:54:17.701"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:12.851" endtime="20230309 22:54:17.701"/>
+</test>
+<test id="s1-t2" name="Test case 2" line="15">
+<kw name="Begin Web Test" library="Common" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://google.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230309 22:54:17.703" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<status status="PASS" starttime="20230309 22:54:17.702" endtime="20230309 22:54:20.361"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:17.702" endtime="20230309 22:54:20.361"/>
+</kw>
+<kw name="Do Another Thing" library="Settings&amp;Keywords">
+<kw name="Log" library="BuiltIn">
+<arg>I am doing another thing....</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230309 22:54:20.362" level="INFO">I am doing another thing....</msg>
+<status status="PASS" starttime="20230309 22:54:20.362" endtime="20230309 22:54:20.362"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:20.362" endtime="20230309 22:54:20.362"/>
+</kw>
+<kw name="Do Something Else" library="Settings&amp;Keywords">
+<kw name="Log" library="BuiltIn">
+<arg>I am doing something else....</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230309 22:54:20.362" level="INFO">I am doing something else....</msg>
+<status status="PASS" starttime="20230309 22:54:20.362" endtime="20230309 22:54:20.362"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:20.362" endtime="20230309 22:54:20.363"/>
+</kw>
+<kw name="End Web Test" library="Common" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230309 22:54:20.363" endtime="20230309 22:54:22.428"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:20.363" endtime="20230309 22:54:22.428"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:17.702" endtime="20230309 22:54:22.428"/>
+</test>
+<kw name="Cleanup Testing Data" library="Common" type="TEARDOWN">
+<kw name="Log" library="BuiltIn">
+<arg>Cleaning test data...</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230309 22:54:22.429" level="INFO">Cleaning test data...</msg>
+<status status="PASS" starttime="20230309 22:54:22.429" endtime="20230309 22:54:22.429"/>
+</kw>
+<status status="PASS" starttime="20230309 22:54:22.429" endtime="20230309 22:54:22.429"/>
+</kw>
+<doc>This is some basic info about the whole suite</doc>
+<status status="PASS" starttime="20230309 22:54:12.689" endtime="20230309 22:54:22.429"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
