@@ -20,6 +20,8 @@
 RobotFramework Documentation 
 https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 
+# Attention: Every file has notes where you can learn how the language works
+
 # Run
    * Pycharm or cmd: robot -d PathToResults PathToScript/ScriptName.robot
    * Single test case:   
