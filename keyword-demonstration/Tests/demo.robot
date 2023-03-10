@@ -1,8 +1,8 @@
 # This is the main File
 *** Settings ***
 Documentation    This is some basic info about the whole suite
-Resource         C:/development/robot-scripts/keyword-demonstration/Resources/Settings&Keywords.robot  # reference where there is important and necessary info to run the program
-Resource         C:/development/robot-scripts/keyword-demonstration/Resources/Common.robot
+Resource         ../Settings&Keywords.robot  # reference where there is important and necessary info to run the program
+Resource         ../Resources/Common.robot      # you can use .. to the directory, you dont need all the path 
 Suite Setup      Common.Insert Testing Data     # Will execute before any test case
 Test Setup       Common.Begin Web Test          # Will open the browser for all the test cases
 Test Teardown    Common.End Web Test            # Will close the browser for all the test cases
