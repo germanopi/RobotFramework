@@ -6,6 +6,8 @@ Resource  Resources/PO/Product.robot
 Resource  Resources/PO/Cart.robot
 Resource  Resources/PO/SignIn.robot
 
+# Contains Settings and Keywords, like saied in Settings&Keywords from keyword-demonstration project
+
 *** Keywords ***
 Search for Products
     LandingPage.Load
