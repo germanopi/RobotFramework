@@ -22,6 +22,10 @@ https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 
 # Run
    * Pycharm or cmd: robot -d PathToResults PathToScript/ScriptName.robot
+   * Single test case:   
+   robot -d PathToResults -t "TestCaseName" PathToScripts  // run every testcase with this name on the suite  
+   robot -d PathToResults -t "TestCaseName" "PathToScript/ScriptName.robot" // Run this testcase from this script  
+   robot -d PathToResults -i TagName PathToScripts   // Focus at Scripts tagged   
    * Multiple suites: robot -d PathToResults -N "NameOfSuiteRunned" PathToScripts     // -N is optional
    * Batch File (.bat) : create a txt with:  
             @echo off  
