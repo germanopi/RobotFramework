@@ -47,7 +47,7 @@ Usually it will have 4 folders:
 Example:  
 
    * Tests: main.robot Will call Common.robot to open chrome and Has the test case: Logged out user can search for products, that call Settings&Keywords.Search for Products    
-   * Resources > Common.robot: will open the google chrome  
+   * Resources > Common.robot: will open the google chrome  and call SeleniumLibrary
    * Page Object > Cart: will call Selenium Library and define keywords needed to the browser page "Cart"  
    * Resources > Settings&Keywords: Call every page object, Define Search for Products using keywords from each page object needed, as example Resource  Resources/PO/Cart.robot
    * Tests: Will finish the execution of the test case
