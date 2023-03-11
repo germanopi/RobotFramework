@@ -53,7 +53,8 @@ Example:
    * Tests: Will finish the execution of the test case
    * Results: will receive the output
    
-    
+ There is a resume of how it works in brazilian-portuguese at https://github.com/germanopi/RobotFramework/tree/main/Resumo, Tests will not pass but it's possible to understand how code infrastructure works
+   
 
 # Possible Errors
    * You added your Webdriver to C:\bin but Pycharm saied:  Message: session not created: This version of ChromeDriver only supports Chrome version xxx
