@@ -11,7 +11,7 @@ Test Teardown  End Web Test
 #   When C  (The Test)
 #   Then D  (Expect Result)
 #
-# Onde Scripts are features, Test Cases são Scenarios, Test Setup é o background
+# Onde Scripts são features, Test Cases são Scenarios, Test Setup é o background
 # Gherkins é declarativo, então não se deve especificar o modo como o usuario vai fazer a ação na interface, apenas dizer o que ele vai fazer
 # Toda expressão após Given/And/Wheb/Theb vau ser um keyword
 
