@@ -46,7 +46,6 @@ Usually it will have 4 folders:
    * Results: contains log, output and report   
    
 Example:  
-
    * Tests: main.robot Will call Common.robot to open chrome and Has the test case: Logged out user can search for products, that call Settings&Keywords.Search for Products    
    * Resources > Common.robot: will open the google chrome  and call SeleniumLibrary
    * Page Object > Cart: will call Selenium Library and define keywords needed to the browser page "Cart"  
@@ -54,7 +53,6 @@ Example:
    * Tests: Will finish the execution of the test case
    * Results: will receive the output 
    
-
 # Possible Errors
    * You added your Webdriver to C:\bin but Pycharm saied:  Message: session not created: This version of ChromeDriver only supports Chrome version xxx
 Look for C:\ProgramData\chocolatey\bin and change the Webdriver to the new one
