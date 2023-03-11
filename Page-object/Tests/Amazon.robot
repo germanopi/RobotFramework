@@ -7,7 +7,7 @@ Test Setup  Begin Web Test
 Test Teardown  End Web Test
 
 *** Test Cases ***
-# Call Settings&Keywords that will call every Page Object needed
+# Call Settings&Keywords (AmazonApp.robot) that will call every Page Object needed 
 Logged out user can search for products
     [Tags]  Smoke
     AmazonApp.Search for Products
