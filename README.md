@@ -35,6 +35,23 @@ https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
             call  robot -d PathToResults PathToScript/ScriptName.robot  
             save file .bat  
 
+# Project Format
+Usually it will have 4 folders:   
+   * Resources with a file to open and close browser, and another file that keep Settings and reference page objects calling keywords from every page objects needed to make a bigger keyword  
+   * Page Object inside Resources with a file for each browser page, that contains keywords definitions to that page, and calls SeleniumLibrary    
+   * Tests: contains test cases   
+   * Results: contains log, output and report   
+   
+Example:  
+
+   * Tests: main.robot Will call Common.robot to open chrome and Has the test case: Logged out user can search for products, that call Settings&Keywords.Search for Products    
+   * Resources > Common.robot: will open the google chrome  
+   * Page Object > Cart: will call Selenium Library and define keywords needed to the browser page "Cart"  
+   * Resources > Settings&Keywords: Call every page object, Define Search for Products using keywords from each page object needed, as example Resource  Resources/PO/Cart.robot
+   * Tests: Will finish the execution of the test case
+   * Results: will receive the output
+   
+    
 
 # Possible Errors
    * You added your Webdriver to C:\bin but Pycharm saied:  Message: session not created: This version of ChromeDriver only supports Chrome version xxx
