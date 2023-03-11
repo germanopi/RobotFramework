@@ -2,10 +2,10 @@
 Documentation  This is some basic info about the whole suite                      # Descreve informações básicas do suite, sistema e razão do teste
 Resource            ../Resources/Setup.robot                                      # Chama o arquivo que inicializa e encerra o browser
 Resource            ../Resources/Keyword.robot                                    # Chama o arquivo que recebe as informações dos page objects de cada página do browser e constroi os keywords
-Suite Setup                                                                       # Chama o keyword do Setup que será executado antes de todos os test cases
+Suite Setup         Setup.Hello World                                             # Chama o keyword do Setup que será executado antes de todos os test cases
 Test Setup          Setup.Begin Web Test                                          # Chama o Keyword do Setup para inicializar o Chrome
 Test Teardown       Setup.End Web Test                                            # Chama o Keyword do Setup para finalizar o Chrome
-Suite Teardown                                                                    # Chama o keyword do Setup que será executado antes de todos os test cases
+Suite Teardown      Setup.Bye World                                               # Chama o keyword do Setup que será executado antes de todos os test cases
 
 *** Variables ***
 # São categorizadas em:
