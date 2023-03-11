@@ -34,7 +34,7 @@ https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
             cd c:\your script location  
             call  robot -d PathToResults PathToScript/ScriptName.robot  
             save file .bat  
-   * Interative changing of variable  robot -d PathToResults -v VARIABLENAME: XXXX PathToScript/ScriptName.robot        
+   * Interative changing of variable:  robot -d PathToResults -v VARIABLENAME: XXXX PathToScript/ScriptName.robot        
             
 
 # Project Format
