@@ -21,6 +21,7 @@ RobotFramework Documentation
 https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
 
 # Attention: Every file has notes where you can learn how the language works
+# Atenção: Há um resumo em português do brasil em https://github.com/germanopi/RobotFramework/tree/main/Resumo, não necessariamente os testes estão passando, o foco é entender como funciona a organização da infraestrutura do robotframework resumidamente 
 
 # Run
    * Pycharm or cmd: robot -d PathToResults PathToScript/ScriptName.robot
@@ -51,9 +52,7 @@ Example:
    * Page Object > Cart: will call Selenium Library and define keywords needed to the browser page "Cart"  
    * Resources > Settings&Keywords: Call every page object, Define Search for Products using keywords from each page object needed, as example Resource  Resources/PO/Cart.robot
    * Tests: Will finish the execution of the test case
-   * Results: will receive the output
-   
- There is a resume of how code infrastructure works in brazilian-portuguese at https://github.com/germanopi/RobotFramework/tree/main/Resumo, Tests will not pass but it's not the main reason
+   * Results: will receive the output 
    
 
 # Possible Errors
