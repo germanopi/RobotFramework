@@ -6,7 +6,7 @@ Resource  Resources/PO/Product.robot
 Resource  Resources/PO/Cart.robot
 Resource  Resources/PO/SignIn.robot
 
-# Contains Settings and Keywords, like saied in Settings&Keywords from keyword-demonstration project
+# Contains Settings and define Keywords, will use keywords needed from page objects, like saied in Settings&Keywords from keyword-demonstration project
 
 *** Keywords ***
 Search for Products
