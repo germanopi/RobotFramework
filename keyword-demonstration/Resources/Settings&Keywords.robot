@@ -3,7 +3,7 @@
 Library          SeleniumLibrary
 
 *** Keywords ***
-Do Something     # Makes the below action when triggered //  # Every First letter must be upper case
+Do Something     # Here you defines what each keywork will make when triggered //  # Every First letter must be upper case
     Log     I am doing something....
 Do Something Else
     Log     I am doing something else....
