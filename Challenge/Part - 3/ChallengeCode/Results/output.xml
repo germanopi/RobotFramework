@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230311 22:27:45.989" rpa="false" schemaversion="3">
+<suite id="s1" name="Front Office" source="C:\development\robot-scripts\ChallengeCode\Tests\Front_Office.robot">
+<test id="s1-t1" name="Should be able to access Team page" line="12">
+<kw name="Begin Web Test" library="Setup" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230311 22:27:46.156" level="INFO">Opening browser 'chrome' to base url 'https://automationplayground.com/front-office/'.</msg>
+<status status="PASS" starttime="20230311 22:27:46.156" endtime="20230311 22:27:48.986"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230311 22:27:48.986" endtime="20230311 22:27:49.101"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:46.156" endtime="20230311 22:27:49.101"/>
+</kw>
+<kw name="Go to Home Page" library="Keywords">
+<kw name="Navigate To" library="HomePage">
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20230311 22:27:49.102" level="INFO">Opening url 'https://automationplayground.com/front-office/'</msg>
+<status status="PASS" starttime="20230311 22:27:49.102" endtime="20230311 22:27:49.273"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:49.102" endtime="20230311 22:27:49.273"/>
+</kw>
+<kw name="Verify Page Loaded" library="HomePage">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${HOMEPAGE_NAVIGATION_ELEMENT}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230311 22:27:49.273" endtime="20230311 22:27:49.283"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:49.273" endtime="20230311 22:27:49.284"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:49.101" endtime="20230311 22:27:49.284"/>
+</kw>
+<kw name="Go to Team Page" library="Keywords">
+<kw name="Select Team Page" library="HeaderPage">
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${HEADER_TEAM_LINK}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230311 22:27:49.285" level="INFO">Clicking link 'Team'.</msg>
+<status status="PASS" starttime="20230311 22:27:49.284" endtime="20230311 22:27:49.325"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:49.284" endtime="20230311 22:27:49.325"/>
+</kw>
+<kw name="Verify Page Loaded" library="TeamPage">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${TEAM_HEADER_LABEL}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230311 22:27:49.326" endtime="20230311 22:27:49.335"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:49.325" endtime="20230311 22:27:49.335"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:49.284" endtime="20230311 22:27:49.335"/>
+</kw>
+<kw name="End Web Test" library="Setup" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230311 22:27:49.336" endtime="20230311 22:27:51.409"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:49.335" endtime="20230311 22:27:51.409"/>
+</kw>
+<tag>Homepage</tag>
+<status status="PASS" starttime="20230311 22:27:46.155" endtime="20230311 22:27:51.409"/>
+</test>
+<test id="s1-t2" name="Team page should match requiriments" line="17">
+<kw name="Begin Web Test" library="Setup" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230311 22:27:51.411" level="INFO">Opening browser 'chrome' to base url 'https://automationplayground.com/front-office/'.</msg>
+<status status="PASS" starttime="20230311 22:27:51.410" endtime="20230311 22:27:54.289"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230311 22:27:54.289" endtime="20230311 22:27:54.405"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:51.410" endtime="20230311 22:27:54.405"/>
+</kw>
+<kw name="Go to Home Page" library="Keywords">
+<kw name="Navigate To" library="HomePage">
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20230311 22:27:54.406" level="INFO">Opening url 'https://automationplayground.com/front-office/'</msg>
+<status status="PASS" starttime="20230311 22:27:54.406" endtime="20230311 22:27:54.580"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:54.405" endtime="20230311 22:27:54.580"/>
+</kw>
+<kw name="Verify Page Loaded" library="HomePage">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${HOMEPAGE_NAVIGATION_ELEMENT}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230311 22:27:54.580" endtime="20230311 22:27:54.591"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:54.580" endtime="20230311 22:27:54.591"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:54.405" endtime="20230311 22:27:54.591"/>
+</kw>
+<kw name="Go to Team Page" library="Keywords">
+<kw name="Select Team Page" library="HeaderPage">
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>${HEADER_TEAM_LINK}</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230311 22:27:54.592" level="INFO">Clicking link 'Team'.</msg>
+<status status="PASS" starttime="20230311 22:27:54.592" endtime="20230311 22:27:54.631"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:54.592" endtime="20230311 22:27:54.631"/>
+</kw>
+<kw name="Verify Page Loaded" library="TeamPage">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${TEAM_HEADER_LABEL}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230311 22:27:54.631" endtime="20230311 22:27:54.641"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:54.631" endtime="20230311 22:27:54.641"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:54.592" endtime="20230311 22:27:54.641"/>
+</kw>
+<kw name="Validate Team Page" library="Keywords">
+<kw name="Validate Page Contents" library="TeamPage">
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${ElementText}</var>
+<arg>${TEAM_HEADER_LABEL}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230311 22:27:54.660" level="INFO">${ElementText} = OUR AMAZING TEAM</msg>
+<status status="PASS" starttime="20230311 22:27:54.641" endtime="20230311 22:27:54.660"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${ElementText}</arg>
+<arg>${TEAM_ELEMENT_VALIDATION}</arg>
+<arg>ignore_case=true</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230311 22:27:54.661" endtime="20230311 22:27:54.661"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:54.641" endtime="20230311 22:27:54.661"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:54.641" endtime="20230311 22:27:54.661"/>
+</kw>
+<kw name="End Web Test" library="Setup" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230311 22:27:54.661" endtime="20230311 22:27:56.734"/>
+</kw>
+<status status="PASS" starttime="20230311 22:27:54.661" endtime="20230311 22:27:56.734"/>
+</kw>
+<tag>Services</tag>
+<status status="PASS" starttime="20230311 22:27:51.410" endtime="20230311 22:27:56.734"/>
+</test>
+<status status="PASS" starttime="20230311 22:27:45.990" endtime="20230311 22:27:56.735"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Homepage</stat>
+<stat pass="1" fail="0" skip="0">Services</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Front Office">Front Office</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
