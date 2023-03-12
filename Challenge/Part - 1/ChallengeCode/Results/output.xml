@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230311 21:15:16.233" rpa="false" schemaversion="3">
+<suite id="s1" name="Front Office" source="C:\development\robot-scripts\ChallengeCode\Tests\Front_Office.robot">
+<test id="s1-t1" name="Print" line="9">
+<kw name="Log" library="BuiltIn">
+<arg>Hello World</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230311 21:15:16.400" level="INFO">Hello World</msg>
+<status status="PASS" starttime="20230311 21:15:16.400" endtime="20230311 21:15:16.400"/>
+</kw>
+<status status="PASS" starttime="20230311 21:15:16.400" endtime="20230311 21:15:16.400"/>
+</test>
+<status status="PASS" starttime="20230311 21:15:16.235" endtime="20230311 21:15:16.401"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Front Office">Front Office</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
