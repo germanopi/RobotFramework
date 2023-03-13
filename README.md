@@ -45,12 +45,12 @@ https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
    * -L DEBUG/WARN/INFO/TRACE/ERROR/NONE will change log details/ You can set it on script with "set log level   Debug"
          
 # Project Format
-Usually it will have 5 folders:   
+Usually it will have 4 folders:   
    * Resources with a file to open and close browser, and another file that keep Settings and reference page objects calling keywords from every page objects needed to make a bigger keyword  
    * Page Object inside Resources with a file for each browser page, that contains keywords definitions to that page, and calls SeleniumLibrary    
    * Tests: contains test cases   
    * Results: contains log, output and report   
-   * Data: with all variables and dictionaries from Tests/script.robot
+
    
 Example:  
    * Tests: main.robot Will call Common.robot to open chrome and Has the test case: Logged out user can search for products, that call Settings&Keywords.Search for Products    
