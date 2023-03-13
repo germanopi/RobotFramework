@@ -4,7 +4,7 @@ Documentation       This is some basic information about the whole suite, system
 Library             SeleniumLibrary  # Import selenium library, it's possible to add some rules here
 
 *** Variables ***
-
+# TODO Shows a thing to do at pycharm under bar
 *** Test Cases ***
 Should be able to add new customer    # Test Case name
     [Documentation]         This is some basic info about the test
