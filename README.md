@@ -36,6 +36,10 @@ https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
             call  robot -d PathToResults PathToScript/ScriptName.robot  
             save file .bat  
    * Interative changing of variable:  robot -d PathToResults -v VARIABLENAME: XXXX PathToScript/ScriptName.robot        
+   
+   Note: --reporttitle "name" and --logtitle, change the result title name  
+         --timestampoutputs, prevent the results to be overwriting
+   
             
 
 # Project Format
