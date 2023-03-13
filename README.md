@@ -37,8 +37,13 @@ https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
             save file .bat  
    * Interative changing of variable:  robot -d PathToResults -v VARIABLENAME: XXXX PathToScript/ScriptName.robot        
    
-   Note: --reporttitle "name" and --logtitle, change the result title name  
-         --timestampoutputs, prevent the results to be overwriting
+   Note:  
+   * --reporttitle "name" and --logtitle, change the result title name  
+   * --timestampoutputs, prevent the results to be overwriting  
+   * put XX_test.robot in the name of the file, you can order which the tests will run
+   * --randomize  tests will run the tests in any order
+   * -L DEBUG/WARN/INFO/TRACE/ERROR/NONE will change log details/ You can set it on script with "set log level   Debug"
+         
    
             
 
